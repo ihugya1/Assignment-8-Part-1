@@ -137,10 +137,18 @@ nav a { text-decoration: none; }
   footer { flex-basis: 100%; }
 
   /* get header and nav side by side and centered */
-  
+  header{
+    width: 40%;
+  }
+  nav{
+    width: 60%;
+  }
+
 
   /* set main stuff */
-  
+  main{
+    display: flex ;
+  }
   
 
 

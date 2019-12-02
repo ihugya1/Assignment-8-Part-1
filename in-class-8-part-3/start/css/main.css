@@ -123,13 +123,16 @@ nav a { text-decoration: none; }
 
 /* set mobile flex stuff*/
 
-
+article{
+  order:-5;
+}
 
 @media(min-width: 768px)
 {
   /* reorder for tablet */
-
-
+  article{
+order:-1;
+}
 }
 @media(min-width: 1024px)
 {
@@ -149,9 +152,11 @@ nav a { text-decoration: none; }
   main{
     display: flex ;
   }
-  
-
-
+ 
+  article{
+order:1;
+  }
+ 
   
 }
 
